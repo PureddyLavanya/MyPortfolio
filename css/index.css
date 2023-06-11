@@ -2,8 +2,10 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-image:url("../assets/bg1.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
-}
+    width: auto!important; overflow-x: hidden!important;
+    background-attachment: fixed;
+    background-size: cover;
+    }
 .cl{
     float: left;
     padding:5px;
@@ -37,6 +39,7 @@ body {
     width: min-content;
     opacity: 0;
 }
+
 @keyframes typing {
     from {
         width: 0

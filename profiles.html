@@ -6,17 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profiles Page</title>
-    <!-- Roboto Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
-    <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+    <link rel="icon" href="./assets/myfavicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -24,12 +19,11 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
         .card {
-            transition: all 0.2s ease;
-            cursor: pointer;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        transition:scale(1.1);
         }
-
         .card:hover {
             box-shadow: 5px 6px 6px 2px #e9ecef;
             transform: scale(1.1);
@@ -48,21 +42,16 @@
         }
     </style>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light shadow-0">
-        <!-- Container wrapper -->
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow-0">
         <div class="container-fluid">
-            <!-- Toggle button -->
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                 data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-
-            <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="navbarRightAlignExample">
-                <!-- Left links -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item p-3">
                         <a class="ltit text-primary fs-5" aria-current="page" href="index.html">Home</a>
@@ -86,34 +75,31 @@
                         <a class="ltit text-primary fs-5" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <!-- Left links -->
             </div>
-            <!-- Collapsible wrapper -->
         </div>
-        <!-- Container wrapper -->
     </nav>
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-9  m-5 mb-3 mt-5">
-            <a href="https://leetcode.com/Lavanyap89/"><img src="./assets/leetcode.jpeg" alt="LeetCode_Profile" class="img-fluid prf"></a>
+    <!-- Profiles Section -->
+    <div class="row mt-5 py-5">
+        <div class="container col-lg-3 col-md-7 col-sm-6 ml-5 m-5 mb-3 mx-auto">
+            <a href="https://leetcode.com/Lavanyap89/" target="_blank"><img src="assets/leetcode.jpeg" alt="Leetcode_Profile" class="img-fluid prf"></a>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-9 m-5 mb-3 mt-5">
-            <a href="https://www.codechef.com/users/pureddylavanya"><img src="./assets/codechef.png" alt="CodeChef_Profile" class="img-fluid prf"></a>
+        <div class="col-lg-3 col-md-7 col-sm-6 m-5 mb-3 mx-auto">
+            <a href="https://www.codechef.com/users/pureddylavanya" target="_blank"><img src="assets/codechef.png" alt="CodeChef_Profile" class="img-fluid prf"></a>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-9 m-5 mb-3 mt-5">
-            <a href="https://www.hackerrank.com/pureddylavanya21"><img src="./assets/hackerrank.png" alt="HackerRank_Profile" class="img-fluid prf"></a>
+        <div class="col-lg-3 col-md-7 col-sm-6 m-5 mb-3 mx-auto">
+            <a href="https://www.hackerrank.com/pureddylavanya21" target="_blank"><img src="assets/hackerrank.png" alt="HackerRank_Profile" class="img-fluid prf"></a>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-9 m-5">
-            <a href="https://github.com/PureddyLavanya"><img src="./assets/github.jpeg" alt="Github_Profile" class="img-fluid prf"></a>
+        <div class="col-lg-3 col-md-7 col-sm-6 m-5  mx-auto">
+            <a href="https://github.com/PureddyLavanya" target="_blank"><img src="assets/github.jpeg" alt="Github_Profile" class="img-fluid prf"></a>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-9 m-5">
-            <a href="https://www.hackerearth.com/@PureddyLavanya"><img src="./assets/hackerearth.png" alt="HackerEarth_Profile" class="img-fluid prf"></a>
+        <div class="col-lg-3 col-md-7 col-sm-6 m-5  mx-auto">
+            <a href="https://www.hackerearth.com/@PureddyLavanya" target="_blank"><img src="assets/hackerearth.png" alt="HackerEarth_Profile" class="img-fluid prf"></a>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-9 m-5">
-            <a href="https://linkedin.com/in/p-lavanya-3147p"><img src="./assets/linkedin.png" alt="LinkedIn_Profile" class="img-fluid prf"></a>
+        <div class="col-lg-3 col-md-7 col-sm-6 m-5  mx-auto">
+            <a href="https://linkedin.com/in/p-lavanya-3147p" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn_Profile" class="img-fluid prf"></a>
         </div>  
     </div>
 </body>
-
 </html>
